@@ -8,7 +8,7 @@ passport.use(
     {
       clientID: process.env.GOOGLE_CLIENT_ID,
       clientSecret: process.env.GOOGLE_CLIENT_SECRET,
-      callbackURL: "https://cipherchat-7zhk.onrender.com/auth/callback",
+      callbackURL: "https://cipherchat-ce3g.onrender.com/auth/callback",
     },
     async (accessToken, refreshToken, profile, done) => {
       try {
